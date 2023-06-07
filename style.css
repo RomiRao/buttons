@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-container {
+    background-color: white;
+    padding: 20px;
+}
+
+.buttons {
+    margin: 40px;
+}
+
+button {
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    margin: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+/* ---------------- FIRST CONTAINER -------------*/
+
+/* First button*/
+
+.first-container .button-1 {
+    box-shadow: 0px 7px 0px 0px rgb(188, 102, 102);
+}
+
+.first-container .button-1:hover {
+    transform: translate(0px,1px);
+    box-shadow: 0px 6px 0px 0px  rgb(188, 102, 102);
+}
+
+.first-container .button-1:active {
+    transform: translate(0px,6px);
+    box-shadow: 0px 7px 0px 0px transparent;
+}
+
+/* Second button */
+
+.first-container .button-2 {
+    overflow: hidden;
+    transition: background-color, 0.3s;
+}
+
+.fa-envelope {
+    position: absolute;
+    transform: translate(-100px, -100px);
+    font-size: 200px;
+    opacity: 0;
+    transition: transform, opacity, 0.3s;
+}
+
+p {
+    transition: opacity, 0.3s;
+}
+
+.first-container .button-2:hover p {
+    opacity: 0;
+}
+
+.first-container .button-2:hover {
+    background-color: rgb(254, 155, 155);
+}
+
+.button-2:hover .fa-envelope {
+    font-size: 20px;
+    transform: translate(-10px, -17px);
+    opacity: 1;
+}
+
+.button-2:active .fa-envelope {
+    transform: translate(100px, -17px);
+} 
+
+.first-container .button-2:active {
+    background-color: rgb(188, 102, 102);
+}
+
+/* Third button */
+
+span {
+    position: absolute;
+    opacity: 0;
+    transition: transform, 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.letter-c {
+    transform: translate(-31px,-30px);
+}
+
+.letter-o {
+    transform: translate(-22px,-30px);
+}
+
+.letter-n-1 {
+    transform: translate(-13.5px,-30px);
+}
+
+.letter-t {
+    transform: translate(-4.5px,-30px);
+}
+
+.letter-i {
+    transform: translate(1px,-30px);
+}
+
+.letter-n-2 {
+    transform: translate(4.5px,-30px);
+}
+
+.letter-u {
+    transform: translate(13.5px,-29.5px);
+}
+
+.letter-e {
+    transform: translate(22.8px,-30px);
+}
+
+.first-container .button-3:hover {
+    background-color: rgb(188, 102, 102);
+}
+
+.first-container .button-3:hover p {
+    transform: translate(0px, 15px);
+    opacity: 0;
+}
+
+.first-container .button-3:hover span {
+    opacity: 1;
+}
+
+.first-container .button-3:hover .letter-c {
+    transform: translate(-31px,-16px);
+}
+
+.first-container .button-3:hover .letter-o {
+    transform: translate(-22px,-16px);
+    transition-delay: 0.2s;
+}
+
+.first-container .button-3:hover .letter-n-1 {
+    transform: translate(-13.5px,-16px);
+    transition-delay: 0.3s;
+}
+
+.first-container .button-3:hover .letter-t {
+    transform: translate(-4.5px,-16px);
+    transition-delay: 0.4s;
+}
+
+.first-container .button-3:hover .letter-i {
+    transform: translate(1px,-16px);
+    transition-delay: 0.5s;
+}
+
+.first-container .button-3:hover .letter-n-2 {
+    transform: translate(4.5px,-16px);
+    transition-delay: 0.6s;
+}
+
+.first-container .button-3:hover .letter-u {
+    transform: translate(13.5px,-16px);
+    transition-delay: 0.7s;
+}
+
+.first-container .button-3:hover .letter-e {
+    transform: translate(22.8px,-16px);
+    transition-delay: 0.8s;
+}
+
+.first-container .button-3:active {
+    background-color: rgb(160, 76, 76);
+}
+
+/* ---------------- SECOND CONTAINER -------------*/
+
+/* First button*/
+
+/* Second button */
+
+/* Third button */
+
+/* ----------------  THIRD CONTAINER -------------*/
+
+/* First button*/
+
+/* Second button */
+
+/* Third button */
+
+/* ---------------- FOURTH CONTAINER-------------*/
+
+/* First button*/
+
+/* Second button */
+
+/* Third button */
+
+/* ---------------- FIFTH CONTAINER-------------*/
+
+/* First button*/
+
+/* Second button */
+
+/* Third button */

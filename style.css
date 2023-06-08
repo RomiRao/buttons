@@ -196,6 +196,23 @@ span {
 
 /* First button*/
 
+.second-container .button-1 i {
+    position: absolute;
+    transform: translate(-10px,-30px);
+    transition: transform, 0.3s;
+}
+
+.second-container .button-1:hover i {
+    transform: translate(-10px,2px);
+}
+
+.second-container .button-1:hover p {
+    transform: translate(0px,30px);
+}
+
+.second-container .button-1:active {
+    opacity: 0.5;
+}
 /* Second button */
 
 /* Third button */
